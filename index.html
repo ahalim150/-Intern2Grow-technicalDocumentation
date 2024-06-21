@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technical Documentation</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <nav id="navbar">
@@ -59,7 +59,7 @@ namespace Hello
             Console.WriteLine("AAA");
         }
     }
-}</code></pre>
+}</code><i class="fas fa-copy copy-icon" onclick="copyToClipboard(this)"></i></pre>
         </section>
 
         <section class="main-section" id="Data_Types">
@@ -78,7 +78,7 @@ namespace Hello
             <header>Variables</header>
             <p>Variables are containers for storing data values.</p>
             <p>The syntax for declaring a variable and assigning a value to it is as following :</p>
-            <pre><code>data-type variable-name = value(data) ;</code></pre>
+            <pre><code>data-type variable-name = value(data) ;</code><i class="fas fa-copy copy-icon" onclick="copyToClipboard(this)"></i></pre>
             <p>For example :-</p>
             <pre><code>int age = 20 ;
 string FirstName = "AAA" ;
@@ -86,31 +86,31 @@ string full_name = "AAA BBB" ;
 double _degree = 80.5 ;
 char grade = 'A' ;
 bool student = true ;
-bool male = true ;</code></pre>
+bool male = true ;</code><i class="fas fa-copy copy-icon" onclick="copyToClipboard(this)"></i></pre>
         </section>
 
         <section class="main-section" id="Type_Casting">
             <header>Type Casting</header>
             <p>Type casting means turning a certain data from a type to another one.</p>
             <p>Syntax for type casting is :-</p>
-            <pre><code>(data-type) data</code></pre>
+            <pre><code>(data-type) data</code><i class="fas fa-copy copy-icon" onclick="copyToClipboard(this)"></i></pre>
             <p>For example :-</p>
             <pre><code>double pi = 3.14 ;
 int myInt = (int) pi ;
 Console.WriteLine(pi) ; // 3.14
-Console.WriteLine(myInt) ; // 3</code></pre>
+Console.WriteLine(myInt) ; // 3</code><i class="fas fa-copy copy-icon" onclick="copyToClipboard(this)"></i></pre>
         </section>
 
         <section class="main-section" id="User_Input">
             <header>User Input</header>
             <p>You already know that Console.WriteLine() is used to output text.</p>
             <p>Now you are going to learn how to use Console.ReadLine() to get user input.</p>
-            <pre><code>Console.ReadLine();</code></pre>
+            <pre><code>Console.ReadLine();</code><i class="fas fa-copy copy-icon" onclick="copyToClipboard(this)"></i></pre>
             <p>For example :-</p>
             <pre><code>int age ;
 Console.Write("Enter your age:") ;
 age = Console.ReadLine() ;
-Console.WriteLine("You are " + age + " years old") ;</code></pre>
+Console.WriteLine("You are " + age + " years old") ;</code><i class="fas fa-copy copy-icon" onclick="copyToClipboard(this)"></i></pre>
         </section>
 
         <section class="main-section" id="Booleans">
@@ -118,8 +118,10 @@ Console.WriteLine("You are " + age + " years old") ;</code></pre>
             <p>Booleans are data types that can be used to control whether something is true or false(yes or no / on or off).</p>
             <pre><code>bool male = true ;
 bool student = true ;
-bool permission_accepted = false ;</code></pre>
+bool permission_accepted = false ;</code><i class="fas fa-copy copy-icon" onclick="copyToClipboard(this)"></i></pre>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

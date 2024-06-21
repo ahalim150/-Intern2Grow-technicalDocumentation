@@ -25,9 +25,21 @@ header:not(#navbar header){border-bottom: 2px solid #121212;width: fit-content;p
 }
 p{font-size: 16px;padding: 6px 0px 2px 0px;}
 ul, ol{padding: 10px 30px;background-color: #e2e2e2;width: fit-content;}
-pre{
-    padding: 6px 10px;width: fit-content;
-    background-color: #121212;color: #e2e2e2;
+pre {
+    position: relative;
+    padding: 6px 10px;
+    width: fit-content;
+    background-color: #121212;
+    color: #e2e2e2;
+}
+
+.copy-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #e2e2e2;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 800px) {
@@ -42,5 +54,3 @@ pre{
     }
     pre{max-width: 100%;overflow-x: auto;}
 }
-
-
